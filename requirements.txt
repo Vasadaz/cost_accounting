@@ -1,0 +1,2 @@
+pdfplumber~=0.11.9
+# pandas~=3.0.1
