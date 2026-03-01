@@ -111,7 +111,7 @@ def parse_credit_ozon(row: list[str]) -> Transaction | None:
     elif "Перечисление денежных средств" in description:
         description = "Возврат денег, отмена заказа"
     else:
-        description.replace(
+        description = description.replace(
             'Оплата товаров/услуг на Платформе', ''
         ).replace(
             '. Без НДС.', ''
